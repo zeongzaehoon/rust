@@ -1,4 +1,7 @@
-## 1. Rust 설치
+# 1. Rust 공부 기록
+
+
+## 1. 설치
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
@@ -19,6 +22,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustc --version
 cargo --version
 ```
+
 
 ## 2. 파이썬과 연동
 - maturin: 파이썬에서 rust 연동하게 해주는 빌드 도구 라이브러리.
@@ -50,6 +54,7 @@ pyo3 = { version = "0.21", features = ["extension-module"] }
 ```bash
 maturin develop
 ```
+
 
 ## 3. 파이썬, 러스트 역할
 |언어|장점|사용예시|
